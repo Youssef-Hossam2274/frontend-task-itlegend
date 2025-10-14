@@ -1,0 +1,154 @@
+:root {
+  --font-family-spartan: var(--font-spartan);
+}
+
+/* Base text reset */
+.text {
+  font-family: var(--font-family-spartan);
+  line-height: 1.2;
+  color: var(--foreground);
+}
+
+/* Headings (H1..H7) */
+.H1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.H2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.H3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.H4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.H5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.H6 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.H7 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Paragraphs (P1..P15) - scaling down */
+.P1 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.P2 {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+.P3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.P4 {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+.P5 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.P6 {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.P7 {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.P8 {
+  font-size: 0.675rem;
+  font-weight: 400;
+}
+.P9 {
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+.P10 {
+  font-size: 0.625rem;
+  font-weight: 400;
+}
+.P11 {
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+.P12 {
+  font-size: 0.575rem;
+  font-weight: 400;
+}
+.P13 {
+  font-size: 0.55rem;
+  font-weight: 400;
+}
+.P14 {
+  font-size: 0.525rem;
+  font-weight: 400;
+}
+.P15 {
+  font-size: 0.5rem;
+  font-weight: 400;
+}
+
+/* Body (B1..B3) */
+.B1 {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+.B2 {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.B3 {
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+/* Labels (L1..L4) */
+.L1 {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.L2 {
+  font-size: 0.6875rem;
+  font-weight: 600;
+}
+.L3 {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+.L4 {
+  font-size: 0.5625rem;
+  font-weight: 600;
+}
+
+/* Color utility classes - expecting index.tsx to pass e.g. 'primary' to produce 'primaryColor' */
+.primaryColor {
+  color: var(--color-green-rgba);
+}
+.mutedColor {
+  color: var(--color-muted-rgba);
+}
+.successColor {
+  color: var(--color-success);
+}
+.dangerColor {
+  color: var(--color-danger);
+}
+.offwhiteColor {
+  color: var(--color-offwhite);
+}
+.blackColor {
+  color: var(--color-black-rgba);
+}
