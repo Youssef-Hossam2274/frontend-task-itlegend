@@ -1,0 +1,6 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 38px;
+  background-color: var(--color-offwhite);
+}

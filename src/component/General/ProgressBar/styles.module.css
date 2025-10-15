@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.track {
+  position: relative;
+  width: 100%;
+  border-radius: 999px;
+  overflow: visible;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 350ms ease;
+}
+
+.thumb {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 0 4px rgba(106, 189, 138, 0.12);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+/* Marker that sits above the track and follows the percent */
+.marker {
+  position: absolute;
+  top: -28px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  pointer-events: none;
+}
+
+.markerLabel {
+  font-size: 12px;
+  font-weight: 700;
+  color: #2b2b2b;
+  background: white;
+  padding: 2px 8px;
+  border-radius: 999px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.markerDot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #6abd8a; /* fallback if COLORS not picked up in CSS */
+  box-shadow: 0 0 0 4px rgba(106, 189, 138, 0.12);
+}
+
+.labelFollowing {
+  position: absolute;
+  top: calc(100% + 8px);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.labelValue {
+  color: #2b2b2b;
+  font-size: 12px;
+  font-weight: 600;
+}

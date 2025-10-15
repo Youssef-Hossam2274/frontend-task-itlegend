@@ -1,0 +1,12 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid rgba(107, 114, 128, 0.12); /* subtle gray ring */
+}
+
+.avatar img {
+  display: block;
+}

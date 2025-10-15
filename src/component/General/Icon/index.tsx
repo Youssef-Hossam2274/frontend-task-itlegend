@@ -1,5 +1,6 @@
+import Image from "next/image";
 import iconList from "./iconList";
-import styles from "./styles.module.scss";
+import styles from "./styles.module.css";
 import { IconProps } from "./types";
 
 export default function Icon({
@@ -12,7 +13,7 @@ export default function Icon({
   onClick,
 }: IconProps) {
   return (
-    <img
+    <Image
       className={`${className} ${onClick ? styles.icon : ""}`}
       alt={name}
       src={iconList[name]}

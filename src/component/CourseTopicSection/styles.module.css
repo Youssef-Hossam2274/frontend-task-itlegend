@@ -1,0 +1,66 @@
+:root {
+  --muted: var(--color-muted);
+}
+
+.container {
+  border: 1px solid var(--muted);
+  border-radius: 6px;
+  padding: 16px;
+  background: var(--white);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin: 0 0 4px 0;
+  font-size: 1.125rem;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.iconBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  list-style: none;
+  padding: 8px 0 0 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid var(--muted);
+}
+
+.itemIcon {
+  opacity: 0.9;
+}
+
+.lockIcon {
+  margin-left: auto;
+  opacity: 0.8;
+}

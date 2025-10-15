@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap");
+
 :root {
   --white: #ffffff;
   --color-black: #000000;
@@ -17,6 +19,16 @@
 
   --font-spartan: "Spartan", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
     Roboto, "Helvetica Neue", Arial;
+}
+
+/* Apply Spartan as the default site font */
+body {
+  font-family: var(--font-spartan);
+  background-color: var(--color-white);
+}
+
+p {
+  margin: 0;
 }
 
 .whiteColor {

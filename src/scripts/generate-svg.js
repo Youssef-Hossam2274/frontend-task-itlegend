@@ -2,7 +2,7 @@ import path from "path";
 import { readdirSync, statSync, writeFileSync } from "fs";
 
 const iconsPathStr = "public/icons";
-const iconListPathStr = "src/component/Icon/iconList.tsx";
+const iconListPathStr = "src/component/General/Icon/iconList.tsx";
 
 const toCamelCase = (str) => {
   return str
@@ -51,7 +51,7 @@ const generateIconListFile = () => {
       prefixedIconName.replace(/[-\s]/g, "_")
     ); // Convert to snake case for import
     const camelCaseKey = toCamelCase(prefixedIconName); // Convert to camel case for the key
-    imports += `import ${importName} from "@/src/${relativePath}";\n`;
+    imports += `import ${importName} from "@/${iconsPathStr}/${iconName}.svg";\n`;
     iconListContent += `  ${camelCaseKey}: ${importName},\n`;
   });
 

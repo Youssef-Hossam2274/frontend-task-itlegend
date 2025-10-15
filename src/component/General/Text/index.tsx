@@ -1,5 +1,5 @@
 import { TextProps } from "./types";
-import styles from "./Text.module.css";
+import styles from "./styles.module.css";
 
 export default function Text({
   children,

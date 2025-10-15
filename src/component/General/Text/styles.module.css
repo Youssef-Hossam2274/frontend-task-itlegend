@@ -132,23 +132,3 @@
   font-size: 0.5625rem;
   font-weight: 600;
 }
-
-/* Color utility classes - expecting index.tsx to pass e.g. 'primary' to produce 'primaryColor' */
-.primaryColor {
-  color: var(--color-green-rgba);
-}
-.mutedColor {
-  color: var(--color-muted-rgba);
-}
-.successColor {
-  color: var(--color-success);
-}
-.dangerColor {
-  color: var(--color-danger);
-}
-.offwhiteColor {
-  color: var(--color-offwhite);
-}
-.blackColor {
-  color: var(--color-black-rgba);
-}

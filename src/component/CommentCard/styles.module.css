@@ -1,0 +1,13 @@
+.commentCardContainer {
+  display: flex;
+  gap: 22px;
+}
+
+.avatarContainer {
+  display: flex;
+  align-items: start;
+}
+
+.avatar {
+  border-radius: 50%;
+}
